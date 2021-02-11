@@ -15,7 +15,7 @@ using System.Text;
 namespace CriteriaFunction.Module.BusinessObjects
 {
     [DefaultClassOptions]
-    [RuleCriteria("test", DefaultContexts.Save, "UserName = GetCurrentUserName()")]
+    [RuleCriteria("test2", DefaultContexts.Save, "UserName = GetCurrentUserName()")]
     public class DomainObject1 : BaseObject
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
         public DomainObject1(Session session)
